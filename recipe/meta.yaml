@@ -1,5 +1,5 @@
 {% set name = "pandas-alive" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pandas_alive/pandas_alive-{{ version }}.tar.gz
-  sha256: dae14ba8af869c6a9f91e40709d63216d93dda2d7674e9223a347821ae6cb986
+  sha256: 1e1fb872c8ce426cc5015bcfeea9867f0beec53eb338a9bdda6e5e041f00b790
 
 build:
   noarch: python
